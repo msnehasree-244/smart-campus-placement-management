@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,timeFromCreateToActivate=8000" db_object_id="edc9b5ba93e38bd053feb97a7bba10a5" label="Offer" max_length="40" name="x_1958840_smart_0_offer" type="collection">
+        <element label="Package" max_length="38" name="package" type="decimal"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Accepted" sequence="1" value="accepted"/>
+                <element inactive_on_update="false" label="Offered" sequence="0" value="offered"/>
+            </choice>
+        </element>
+        <element label="Offer Date" max_length="40" name="offer_date" type="glide_date"/>
+        <element label="Application" max_length="32" name="application" reference="x_1958840_smart_0_application" type="reference"/>
+        <element label="Company" max_length="32" name="company" reference="x_1958840_smart_0_company" type="reference"/>
+        <element label="Student" max_length="32" name="student" reference="x_1958840_smart_0_student" type="reference"/>
+        <index name="index">
+            <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+        <index name="index3">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

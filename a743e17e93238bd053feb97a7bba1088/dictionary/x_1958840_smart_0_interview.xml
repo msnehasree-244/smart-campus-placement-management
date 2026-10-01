@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,timeFromCreateToActivate=8000" db_object_id="c9c6353693e38bd053feb97a7bba1070" label="Interview" max_length="40" name="x_1958840_smart_0_interview" type="collection">
+        <element label="Student" max_length="32" name="student" reference="x_1958840_smart_0_student" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="scheduled"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Company" max_length="32" name="company" reference="x_1958840_smart_0_company" type="reference"/>
+        <element label="Interview Time" max_length="40" name="interview_time" type="string"/>
+        <element label="Interview Round" max_length="40" name="interview_round" type="string"/>
+        <element choice="1" label="Mode" max_length="40" name="mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offline" sequence="1" value="offline"/>
+                <element inactive_on_update="false" label="Online" sequence="0" value="online"/>
+            </choice>
+        </element>
+        <element label="Interview Date" max_length="40" name="interview_date" type="glide_date"/>
+        <element display="true" label="Application" max_length="32" name="application" reference="x_1958840_smart_0_application" type="reference"/>
+        <index name="index">
+            <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+        <index name="index3">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,timeFromCreateToActivate=8000" db_object_id="624e69f293a38bd053feb97a7bba1099" label="Application" max_length="40" name="x_1958840_smart_0_application" type="collection">
+        <element label="Student" max_length="32" name="student" reference="x_1958840_smart_0_student" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Shortlisted" sequence="1" value="shortlisted"/>
+                <element inactive_on_update="false" label="Applied" sequence="0" value="applied"/>
+                <element inactive_on_update="false" label="Selected" sequence="3" value="selected"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Interview" sequence="2" value="interview"/>
+            </choice>
+        </element>
+        <element label="Applied Date" max_length="40" name="applied_date" type="glide_date"/>
+        <element label="Job Opening" max_length="32" name="job_opening" reference="x_1958840_smart_0_job_opening" type="reference"/>
+        <index name="index">
+            <element name="job_opening"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

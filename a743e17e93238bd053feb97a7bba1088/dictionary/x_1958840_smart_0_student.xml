@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,timeFromCreateToActivate=8000" db_object_id="2c142dbe93238bd053feb97a7bba10d0" label="Student" max_length="40" name="x_1958840_smart_0_student" type="collection">
+        <element label="Roll Number" max_length="40" name="roll_number" type="string"/>
+        <element display="true" label="Student Name" max_length="40" name="student_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="Graduation Year" max_length="40" name="graduation_year" type="integer"/>
+        <element choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE-Data Science" sequence="6" value="cse_data_science"/>
+                <element inactive_on_update="false" label="IT" sequence="4" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+                <element inactive_on_update="false" label="Mechanical" sequence="3" value="mechanical"/>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="EEE" sequence="1" value="eee"/>
+                <element inactive_on_update="false" label="Aeronautical" sequence="7" value="aeronautical"/>
+                <element inactive_on_update="false" label="CSE-AI&amp;ML" sequence="5" value="cse_ai_ml"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="400" name="email" type="string"/>
+        <element label="CGPA" max_length="38" name="cgpa" type="decimal"/>
+        <element label="Skills" max_length="40" name="skills" type="string"/>
+    </element>
+</database>

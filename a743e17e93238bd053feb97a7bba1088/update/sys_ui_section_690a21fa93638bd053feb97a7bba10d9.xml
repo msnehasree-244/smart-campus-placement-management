@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="690a21fa93638bd053feb97a7bba10d9" sys_domain="global" table="x_1958840_smart_0_job_opening" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>3022723a93ab8bd053feb97a7bba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>minimum_cgpa</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>f822723a93ab8bd053feb97a7bba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>graduation_year</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>b422723a93ab8bd053feb97a7bba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>package</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>7022723a93ab8bd053feb97a7bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>3c22723a93ab8bd053feb97a7bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>f422723a93ab8bd053feb97a7bba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>b022723a93ab8bd053feb97a7bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eligible_department</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>7c22723a93ab8bd053feb97a7bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>required_skills</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>3822723a93ab8bd053feb97a7bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_deadline</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 14:53:38</sys_created_on>
+            <sys_id>f022723a93ab8bd053feb97a7bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958840_smart_0_job_opening" sys_domain="global" view="Default view">690a21fa93638bd053feb97a7bba10d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 14:53:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1958840_smart_0_job_opening</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 09:38:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>690a21fa93638bd053feb97a7bba10d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1958840_smart_0_job_opening</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart Campus Placement Management System" source="x_1958840_smart_0">a743e17e93238bd053feb97a7bba1088</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Campus Placement Management System">a743e17e93238bd053feb97a7bba1088</sys_scope>
+            <sys_update_name>sys_ui_section_690a21fa93638bd053feb97a7bba10d9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 09:38:34</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

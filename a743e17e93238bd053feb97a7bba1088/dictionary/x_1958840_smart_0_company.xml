@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,timeFromCreateToActivate=8000" db_object_id="b0b8a13a93638bd053feb97a7bba10ed" label="Company" max_length="40" name="x_1958840_smart_0_company" type="collection">
+        <element label="HR Contact" max_length="40" name="hr_contact" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+            </choice>
+        </element>
+        <element label="Industry" max_length="40" name="industry" type="string"/>
+        <element display="true" label="Company Name" max_length="40" name="company_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,timeFromCreateToActivate=8000" db_object_id="c10a21fa93638bd053feb97a7bba100e" label="Job Opening" max_length="40" name="x_1958840_smart_0_job_opening" type="collection">
+        <element choice="3" label="Eligible Department" max_length="40" name="eligible_department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+                <element inactive_on_update="false" label="CSE-Data Science" sequence="5" value="cse_data_science"/>
+                <element inactive_on_update="false" label="IT" sequence="3" value="it"/>
+                <element inactive_on_update="false" label="Aeronautical" sequence="7" value="aeronautical"/>
+                <element inactive_on_update="false" label="Mechanical" sequence="6" value="mechanical"/>
+                <element inactive_on_update="false" label="EEE" sequence="1" value="eee"/>
+                <element inactive_on_update="false" label="CSE-AI &amp; ML" sequence="4" value="cse_ai_ml"/>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+            </choice>
+        </element>
+        <element label="Company" max_length="32" name="company" reference="x_1958840_smart_0_company" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on_hold"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+            </choice>
+        </element>
+        <element label="Package" max_length="38" name="package" type="decimal"/>
+        <element label="Application Deadline" max_length="40" name="application_deadline" type="glide_date"/>
+        <element display="true" label="Job Title" max_length="40" name="job_title" type="string"/>
+        <element label="Minimum CGPA" max_length="38" name="minimum_cgpa" type="decimal"/>
+        <element label="Required Skills" max_length="40" name="required_skills" type="string"/>
+        <element label="Graduation Year" max_length="40" name="graduation_year" type="integer"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+    </element>
+</database>
